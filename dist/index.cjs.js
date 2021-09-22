@@ -2479,7 +2479,7 @@ var StyledPanel = styled__default['default'].div(templateObject_1$D || (template
 //            React__default['default'].createElement("img", { src: "/images/rugdoc-dark.png" })),
 //        React__default['default'].createElement(PanelFooter, __assign({}, props))));
 // };
-var templateObject_1$D, templateObject_2$d, templateObject_3$8;
+// var templateObject_1$D, templateObject_2$d, templateObject_3$8;
 
 var Icon$18 = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
