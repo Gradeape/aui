@@ -44,16 +44,10 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
 const Panel: React.FC<Props> = (props) => {
   const { isPushed, showMenu } = props;
   return (
- //   <StyledPanel isPushed={isPushed} showMenu={showMenu}>
+    <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-//      <AssureKyc target="_blank" rel="noreferrer" href="https://www.assuredefi.io/projects/polyvertex/">
-//        <img src="/images/kyc.png" />
-//      </AssureKyc>
-//      <RugDoc target="_blank" rel="noreferrer" href="https://rugdoc.io/project/polyvertex/">
-//        <img src="/images/rugdoc-dark.png" />
-//      </RugDoc>
       <PanelFooter {...props} />
-//   </StyledPanel>
+  </StyledPanel>
   );
 };
 
