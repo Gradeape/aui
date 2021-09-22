@@ -16,7 +16,7 @@ import { PanelProps, PushedProps } from "./types";
 interface Props extends PanelProps, PushedProps {}
 
 const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
-const { MoonIcon, SunIcon, LanguageIcon } = Icons;
+const {  LanguageIcon } = Icons;
 
 const Container = styled.div`
   flex: none;
@@ -57,8 +57,6 @@ const SocialEntry = styled.div`
 const PanelFooter: React.FC<Props> = ({
   isPushed,
   pushNav,
-  toggleTheme,
-  isDark,
   cakePriceUsd,
   currentLang,
   langs,

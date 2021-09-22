@@ -23,10 +23,8 @@ var throttle__default = /*#__PURE__*/_interopDefaultLegacy(throttle);
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
-
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted.
-
 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
 REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
 AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
@@ -47,6 +45,30 @@ var __assign = function() {
     return __assign.apply(this, arguments);
 };
 
+function __rest(s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+}
+
+/** @deprecated */
+function __spreadArrays() {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+}
+
+function __makeTemplateObject(cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
 }
 
 var getThemeValue = function (path, fallback) { return function (theme) {
@@ -2211,13 +2233,13 @@ var links = [
 ];
 var socials = [
     {
-       // label: "Telegram",
-       // icon: "TelegramIcon",
-       // items: [
-           // {
-             //   label: "English",
-            //    href: "https://t.me/polyvertex",
-          //  },
+        label: "Telegram",
+        icon: "TelegramIcon",
+        items: [
+            {
+                label: "English",
+                href: "https://t.me/polyvertex",
+            },
             // {
             //   label: "Bahasa Indonesia",
             //   href: "https://t.me/PancakeSwapIndonesia",
@@ -2242,14 +2264,14 @@ var socials = [
             //   label: "Türkiye",
             //   href: "",
             // },
-           // {
-            //    label: "Español",
-            //    href: "https://t.me/polyvertex_spanish",
-           // },
-           // {
-           //     label: "Português",
-           //     href: "https://t.me/polyvertex_portugues",
-           // },
+            {
+                label: "Español",
+                href: "https://t.me/polyvertex_spanish",
+            },
+            {
+                label: "Português",
+                href: "https://t.me/polyvertex_portugues",
+            },
             // {
             //   label: "日本語",
             //   href: "",
@@ -2258,21 +2280,21 @@ var socials = [
             //   label: "Français",
             //   href: "",
             // },
-           // {
-             //   label: "Announcements",
-            //    href: "https://t.me/polyvertex_announcements",
-           // },
-        
+            {
+                label: "Announcements",
+                href: "https://t.me/polyvertex_announcements",
+            },
+        ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/GradeApeTROOP",
+        href: "https://twitter.com/FarmVertex",
     },
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/r/GradeApeTROOP/",
+        href: "https://www.reddit.com/r/PolyVertex/",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2445,18 +2467,18 @@ var StyledPanel = styled__default['default'].div(templateObject_1$D || (template
     var isPushed = _a.isPushed;
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
-//var RugDoc = styled__default['default'].a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
-//var AssureKyc = styled__default['default'].a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
-//var Panel = function (props) {
-//    var isPushed = props.isPushed, showMenu = props.showMenu;
-//    return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
-//        React__default['default'].createElement(PanelBody, __assign({}, props)),
-//        React__default['default'].createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
-//            React__default['default'].createElement("img", { src: "/images/kyc.png" })),
-//        React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
-//            React__default['default'].createElement("img", { src: "/images/rugdoc-dark.png" })),
-//        React__default['default'].createElement(PanelFooter, __assign({}, props))));
-// };
+var RugDoc = styled__default['default'].a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+var AssureKyc = styled__default['default'].a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+var Panel = function (props) {
+    var isPushed = props.isPushed, showMenu = props.showMenu;
+    return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
+        React__default['default'].createElement(PanelBody, __assign({}, props)),
+        React__default['default'].createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
+            React__default['default'].createElement("img", { src: "/images/kyc.png" })),
+        React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
+            React__default['default'].createElement("img", { src: "/images/rugdoc-dark.png" })),
+        React__default['default'].createElement(PanelFooter, __assign({}, props))));
+};
 var templateObject_1$D, templateObject_2$d, templateObject_3$8;
 
 var Icon$18 = function (props) {
@@ -2868,10 +2890,9 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#eff2f5", text: "#262626", textDisabled: "#BDC2C4", textSubtle: "#809fba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#d4fdff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#3dd644", textDisabled: "#555e63", textSubtle: "#c4d4d3", borderColor: "#4b6361", card: "#262b2c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#d4fdff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#e2fafc", textDisabled: "#555e63", textSubtle: "#c4d4d3", borderColor: "#4b6361", card: "#262b2c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
-
 
 var light = {
     background: lightColors.card,
