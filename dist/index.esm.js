@@ -2220,13 +2220,13 @@ var links = [
 ];
 var socials = [
     {
-        label: "Telegram",
-        icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/polyvertex",
-            },
+     //   label: "Telegram",
+     //   icon: "TelegramIcon",
+     //   items: [
+      //      {
+      //          label: "English",
+       //         href: "https://t.me/polyvertex",
+        //    },
             // {
             //   label: "Bahasa Indonesia",
             //   href: "https://t.me/PancakeSwapIndonesia",
@@ -2251,14 +2251,14 @@ var socials = [
             //   label: "Türkiye",
             //   href: "",
             // },
-            {
-                label: "Español",
-                href: "https://t.me/polyvertex_spanish",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/polyvertex_portugues",
-            },
+        //    {
+       //         label: "Español",
+       //         href: "https://t.me/polyvertex_spanish",
+       //     },
+     //       {
+      //          label: "Português",
+      //          href: "https://t.me/polyvertex_portugues",
+     //       },
             // {
             //   label: "日本語",
             //   href: "",
@@ -2267,21 +2267,21 @@ var socials = [
             //   label: "Français",
             //   href: "",
             // },
-            {
-                label: "Announcements",
-                href: "https://t.me/polyvertex_announcements",
-            },
-        ],
+        //    {
+        //        label: "Announcements",
+        //        href: "https://t.me/polyvertex_announcements",
+       //     },
+      //  ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FarmVertex",
+        href: "https://twitter.com/GradeApeTROOP",
     },
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/r/PolyVertex/",
+        href: "https://www.reddit.com/r/GradeApeTROOP/",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2454,18 +2454,18 @@ var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeT
     var isPushed = _a.isPushed;
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
-var RugDoc = styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
-var AssureKyc = styled.a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
-var Panel = function (props) {
-    var isPushed = props.isPushed, showMenu = props.showMenu;
-    return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
-        React.createElement(PanelBody, __assign({}, props)),
-        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
-            React.createElement("img", { src: "/images/kyc.png" })),
-        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
-            React.createElement("img", { src: "/images/rugdoc-dark.png" })),
-        React.createElement(PanelFooter, __assign({}, props))));
-};
+// var RugDoc = styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+// var AssureKyc = styled.a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+// var Panel = function (props) {
+//    var isPushed = props.isPushed, showMenu = props.showMenu;
+//    return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
+//        React.createElement(PanelBody, __assign({}, props)),
+//        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
+//            React.createElement("img", { src: "/images/kyc.png" })),
+//        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
+//            React.createElement("img", { src: "/images/rugdoc-dark.png" })),
+//        React.createElement(PanelFooter, __assign({}, props))));
+//};
 var templateObject_1$D, templateObject_2$d, templateObject_3$8;
 
 var Icon$18 = function (props) {
@@ -2664,20 +2664,7 @@ var UserBlock = function (_a) {
         } }, "Connect"))));
 };
 
-var Icon$1e = function (props) {
-    var theme = useTheme();
-    var primaryColor = theme.isDark ? "#3C3742" : "#e9eaeb";
-    var secondaryColor = theme.isDark ? "#666171" : "#bdc2c4";
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("path", { d: "M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z", fill: primaryColor }),
-        React.createElement("mask", { id: "A", "mask-type": "alpha", maskUnits: "userSpaceOnUse", x: "0", y: "0", width: "32", height: "32" },
-            React.createElement("path", { d: "M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z", fill: "#c4c4c4" })),
-        React.createElement("g", { mask: "url(#A)" },
-            React.createElement("path", { d: "M25.128 16.436c0 3.115-4.133 5.641-9.231 5.641s-9.231-2.526-9.231-5.641V15h18.461v1.436zm2.205 13.806c0-3.815-5.074-6.908-11.333-6.908S4.667 26.426 4.667 30.242V32h22.667v-1.759z", fill: secondaryColor }),
-            React.createElement("path", { fillRule: "evenodd", d: "M10.234 5.601C9.942 4.264 10.96 3 12.328 3c1.184 0 2.143.959 2.143 2.143v3.873l1.427-.067c.589 0 1.166.034 1.724.098V5.143c0-1.184.959-2.143 2.143-2.143 1.368 0 2.386 1.264 2.093 2.601l-.931 4.258c2.529 1.006 4.201 2.749 4.201 4.731 0 3.115-4.133 5.641-9.231 5.641s-9.231-2.526-9.231-5.641c0-2.053 1.794-3.849 4.476-4.836l-.908-4.153z", fill: secondaryColor }),
-            React.createElement("ellipse", { cx: "12.308", cy: "14.846", rx: "1.026", ry: "1.538", fill: primaryColor }),
-            React.createElement("ellipse", { cx: "19.385", cy: "14.846", rx: "1.026", ry: "1.538", fill: primaryColor }))));
-};
+
 
 var StyledAvatar = styled.div(templateObject_1$G || (templateObject_1$G = __makeTemplateObject(["\n  margin-left: 8px;\n  position: relative;\n\n  img {\n    border-radius: 50%;\n  }\n"], ["\n  margin-left: 8px;\n  position: relative;\n\n  img {\n    border-radius: 50%;\n  }\n"])));
 var Pip = styled.div(templateObject_2$f || (templateObject_2$f = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 50%;\n  pointer-events: none;\n  height: 8px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 8px;\n"], ["\n  background-color: ", ";\n  border-radius: 50%;\n  pointer-events: none;\n  height: 8px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 8px;\n"])), function (_a) {
@@ -2877,7 +2864,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#eff2f5", text: "#262626", textDisabled: "#BDC2C4", textSubtle: "#809fba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#d4fdff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#e2fafc", textDisabled: "#555e63", textSubtle: "#c4d4d3", borderColor: "#4b6361", card: "#262b2c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#d4fdff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#3dd644", textDisabled: "#555e63", textSubtle: "#c4d4d3", borderColor: "#4b6361", card: "#262b2c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
