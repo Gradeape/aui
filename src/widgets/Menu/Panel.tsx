@@ -34,12 +34,12 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   }
 `;
 
-//const RugDoc = styled.a<{ target: string; rel: string; href: string }>`
+// const RugDoc = styled.a<{ target: string; rel: string; href: string }>`
 //  margin: 2%;
-//`;
-//const AssureKyc = styled.a<{ target: string; rel: string; href: string }>`
+// `;
+// const AssureKyc = styled.a<{ target: string; rel: string; href: string }>`
 //  margin: 2%;
-//`;
+// `;
 
 const Panel: React.FC<Props> = (props) => {
   const { isPushed, showMenu } = props;

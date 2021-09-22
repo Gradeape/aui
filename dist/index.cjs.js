@@ -2467,9 +2467,9 @@ var StyledPanel = styled__default['default'].div(templateObject_1$D || (template
     var isPushed = _a.isPushed;
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
-//var RugDoc = styled__default['default'].a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
-//var AssureKyc = styled__default['default'].a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
-//var Panel = function (props) {
+// var RugDoc = styled__default['default'].a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+// var AssureKyc = styled__default['default'].a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+// var Panel = function (props) {
 //    var isPushed = props.isPushed, showMenu = props.showMenu;
 //    return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
 //        React__default['default'].createElement(PanelBody, __assign({}, props)),
@@ -2478,7 +2478,7 @@ var StyledPanel = styled__default['default'].div(templateObject_1$D || (template
 //        React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
 //            React__default['default'].createElement("img", { src: "/images/rugdoc-dark.png" })),
 //        React__default['default'].createElement(PanelFooter, __assign({}, props))));
-//};
+// };
 var templateObject_1$D, templateObject_2$d, templateObject_3$8;
 
 var Icon$18 = function (props) {

@@ -2465,7 +2465,7 @@ var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeT
 //        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
 //            React.createElement("img", { src: "/images/rugdoc-dark.png" })),
 //        React.createElement(PanelFooter, __assign({}, props))));
-//};
+// };
 var templateObject_1$D, templateObject_2$d, templateObject_3$8;
 
 var Icon$18 = function (props) {
