@@ -34,12 +34,12 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   }
 `;
 
- const RugDoc = styled.a<{ target: string; rel: string; href: string }>`
+const RugDoc = styled.a<{ target: string; rel: string; href: string }>`
   margin: 2%;
- `;
- const AssureKyc = styled.a<{ target: string; rel: string; href: string }>`
+`;
+const AssureKyc = styled.a<{ target: string; rel: string; href: string }>`
   margin: 2%;
- `;
+`;
 
 const Panel: React.FC<Props> = (props) => {
   const { isPushed, showMenu } = props;
@@ -47,7 +47,7 @@ const Panel: React.FC<Props> = (props) => {
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
       <AssureKyc target="_blank" rel="noreferrer" href="https://www.assuredefi.io">
-        <img src="/images/kyc.png" />
+        <img src="/images/" />
       </AssureKyc>
       <RugDoc target="_blank" rel="noreferrer" href="https://rugdoc.io/">
         <img src="/images/rugdoc-dark.png" />

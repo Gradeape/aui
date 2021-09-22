@@ -10,8 +10,10 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
+
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted.
+
 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
 REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
 AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
@@ -1537,7 +1539,7 @@ var mediaQueries = {
 var shadows = {
     level1: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
-    success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
+    success: "0px 0px 0px 1px #30acff, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
     warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
     focus: "0px 0px 0px 1px #7645D9, 0px 0px 0px 4px rgba(118, 69, 217, 0.6)",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
@@ -2220,60 +2222,6 @@ var links = [
 ];
 var socials = [
     {
-     //   label: "Telegram",
-     //   icon: "TelegramIcon",
-     //   items: [
-      //      {
-      //          label: "English",
-       //         href: "https://t.me/polyvertex",
-        //    },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            // {
-            //   label: "中文",
-            //   href: "",
-            // },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            // {
-            //   label: "Italiano",
-            //   href: "",
-            // },
-            // {
-            //   label: "русский",
-            //   href: "",
-            // },
-            // {
-            //   label: "Türkiye",
-            //   href: "",
-            // },
-        //    {
-       //         label: "Español",
-       //         href: "https://t.me/polyvertex_spanish",
-       //     },
-     //       {
-      //          label: "Português",
-      //          href: "https://t.me/polyvertex_portugues",
-     //       },
-            // {
-            //   label: "日本語",
-            //   href: "",
-            // },
-            // {
-            //   label: "Français",
-            //   href: "",
-            // },
-        //    {
-        //        label: "Announcements",
-        //        href: "https://t.me/polyvertex_announcements",
-       //     },
-      //  ],
-    },
-    {
         label: "Twitter",
         icon: "TwitterIcon",
         href: "https://twitter.com/GradeApeTROOP",
@@ -2454,19 +2402,19 @@ var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeT
     var isPushed = _a.isPushed;
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
- var RugDoc = styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
- var AssureKyc = styled.a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
- var Panel = function (props) {
+var RugDoc = styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+var AssureKyc = styled.a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io" },
-            React.createElement("img", { src: "/images/kyc.png" })),
-        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io" },
-           React.createElement("img", { src: "/images/rugdoc-dark.png" })),
+        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/" },
+            React.createElement("img", { src: "/images/" })),
+        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/" },
+            React.createElement("img", { src: "/images/rugdoc-dark.png" })),
         React.createElement(PanelFooter, __assign({}, props))));
- };
- var templateObject_1$D, templateObject_2$d, templateObject_3$8;
+};
+var templateObject_1$D, templateObject_2$d, templateObject_3$8;
 
 var Icon$18 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
@@ -2679,7 +2627,6 @@ var Icon$1e = function (props) {
             React.createElement("ellipse", { cx: "19.385", cy: "14.846", rx: "1.026", ry: "1.538", fill: primaryColor }))));
 };
 
-
 var StyledAvatar = styled.div(templateObject_1$G || (templateObject_1$G = __makeTemplateObject(["\n  margin-left: 8px;\n  position: relative;\n\n  img {\n    border-radius: 50%;\n  }\n"], ["\n  margin-left: 8px;\n  position: relative;\n\n  img {\n    border-radius: 50%;\n  }\n"])));
 var Pip = styled.div(templateObject_2$f || (templateObject_2$f = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 50%;\n  pointer-events: none;\n  height: 8px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 8px;\n"], ["\n  background-color: ", ";\n  border-radius: 50%;\n  pointer-events: none;\n  height: 8px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 8px;\n"])), function (_a) {
     var theme = _a.theme;
@@ -2869,7 +2816,7 @@ var baseColors = {
     primaryBright: "#343135",
     primaryDark: "#F9F9F9",
     secondary: "#44515e",
-    success: "#31D0AA",
+    success: "#30acff",
     warning: "#FFB237",
 };
 var brandColors = {
@@ -2878,7 +2825,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#eff2f5", text: "#262626", textDisabled: "#BDC2C4", textSubtle: "#809fba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#d4fdff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#3dd644", textDisabled: "#555e63", textSubtle: "#c4d4d3", borderColor: "#4b6361", card: "#262b2c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#F9F9F9", secondary: "#d4fdff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#132326", input: "#3f585a", primaryDark: "#F9F9F9", tertiary: "#6c8f93", text: "#e2fafc", textDisabled: "#555e63", textSubtle: "#c4d4d3", borderColor: "#4b6361", card: "#262b2c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 

@@ -115,13 +115,13 @@ export const links = [
 
 export const socials = [
   {
-  //  label: "Telegram",
-  //  icon: "TelegramIcon",
-   // items: [
-   //   {
-   //     label: "English",
-   //     href: "https://t.me/polyvertex",
-    //  },
+    label: "Telegram",
+    icon: "TelegramIcon",
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/polyvertex",
+      },
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
@@ -146,14 +146,14 @@ export const socials = [
       //   label: "Türkiye",
       //   href: "",
       // },
-     // {
-     //   label: "Español",
-     //   href: "https://t.me/polyvertex_spanish",
-     // },
-     // {
-      //  label: "Português",
-      //  href: "https://t.me/polyvertex_portugues",
-     // },
+      {
+        label: "Español",
+        href: "https://t.me/polyvertex_spanish",
+      },
+      {
+        label: "Português",
+        href: "https://t.me/polyvertex_portugues",
+      },
       // {
       //   label: "日本語",
       //   href: "",
@@ -162,25 +162,25 @@ export const socials = [
       //   label: "Français",
       //   href: "",
       // },
-     // {
-     //   label: "Announcements",
-     //   href: "https://t.me/polyvertex_announcements",
-     // },
+      {
+        label: "Announcements",
+        href: "https://t.me/polyvertex_announcements",
+      },
       // {
       //   label: "Price Bot",
       //   href: "",
       // },
-   // ],
- // },
- // {
+    ],
+  },
+  {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/GradeApeTROOP",
+    href: "https://twitter.com/FarmVertex",
   },
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://www.reddit.com/r/GradeApeTROOP/",
+    href: "https://www.reddit.com/r/PolyVertex/",
   },
 ];
 
